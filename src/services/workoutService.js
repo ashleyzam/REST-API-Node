@@ -10,7 +10,7 @@ const getSingleWorkout = () => {
 const createWorkout = () => {
   return;
 };
-const updateWorkout = () => {
+const updateSingleWorkout = () => {
   return;
 };
 const deleteSingleWorkout = () => {
@@ -20,6 +20,6 @@ module.exports = {
   getAllWorkouts,
   getSingleWorkout,
   createWorkout,
-  updateWorkout,
+  updateSingleWorkout,
   deleteSingleWorkout,
 };
