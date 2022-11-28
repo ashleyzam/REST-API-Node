@@ -15,7 +15,7 @@ const createWorkout = (req, res) => {
   res.send(`Create workout ${req.params.workoutId}`);
 };
 
-const updateWorkout = (req, res) => {
+const updateSingleWorkout = (req, res) => {
   const updatedWorkout = workoutService.updateSingleWorkout(
     req.params.workoutId
   );
@@ -31,6 +31,6 @@ module.exports = {
   getAllWorkouts,
   getSingleWorkout,
   createWorkout,
-  updateWorkout,
+  updateSingleWorkout,
   deleteSingleWorkout,
 };
